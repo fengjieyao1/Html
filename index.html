@@ -2,246 +2,50 @@
 <html lang="ja">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>自己紹介</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>R25E2547</title>
     <style>
-        :root {
-            --bg: #f4f7fb;
-            --card: #ffffff;
-            --primary: #2f6fed;
-            --accent: #eaf1ff;
-            --text: #1f2937;
-            --muted: #6b7280;
-            --border: #dfe7f5;
-        }
-
-        * {
-            box-sizing: border-box;
-        }
-
         body {
-            margin: 0;
-            font-family: "Segoe UI", "Hiragino Sans", "Yu Gothic", sans-serif;
-            background: linear-gradient(180deg, #eef4ff 0%, var(--bg) 100%);
-            color: var(--text);
-            line-height: 1.7;
-        }
-
-        .container {
-            max-width: 900px;
-            margin: 50px auto;
-            padding: 20px;
-        }
-
-        .card {
-            background: var(--card);
-            border: 1px solid var(--border);
-            border-radius: 18px;
-            box-shadow: 0 8px 24px rgba(47, 111, 237, 0.08);
-            overflow: hidden;
-        }
-
-        .hero {
-            display: flex;
-            align-items: center;
-            gap: 30px;
-            padding: 40px 30px;
-            background: linear-gradient(135deg, #f8fbff 0%, #edf4ff 100%);
-        }
-
-        .profile-photo {
-            width: 170px;
-            height: 170px;
-            border-radius: 50%;
-            background: linear-gradient(135deg, var(--primary), #7ca9ff);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: white;
-            font-size: 52px;
-            font-weight: bold;
-            box-shadow: 0 10px 25px rgba(47, 111, 237, 0.2);
-        }
-
-        h1 {
-            margin: 0;
-            font-size: 2.2rem;
-        }
-
-        .title {
-            color: var(--primary);
-            font-weight: 700;
-            margin: 8px 0 12px;
-            font-size: 1.1rem;
-        }
-
-        .intro {
-            margin: 0;
-            color: var(--muted);
-            max-width: 560px;
-        }
-
-        .section {
-            padding: 30px;
-            border-top: 1px solid var(--border);
-        }
-
-        h2 {
-            margin-top: 0;
-            margin-bottom: 18px;
-            font-size: 1.5rem;
-            color: var(--text);
-        }
-
-        .grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-            gap: 18px;
-        }
-
-        .box {
-            background: var(--accent);
-            border: 1px solid #d9e6ff;
-            border-radius: 12px;
-            padding: 18px;
-        }
-
-        .box h3 {
-            margin: 0 0 8px;
-            font-size: 1.05rem;
-            color: var(--primary);
-        }
-
-        ul {
-            margin: 0;
-            padding-left: 20px;
-        }
-
-        li {
-            margin-bottom: 8px;
-        }
-
-        .contact {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 12px;
-        }
-
-        .chip {
-            background: #eef3ff;
-            color: var(--primary);
-            border: 1px solid #dfeaff;
-            border-radius: 999px;
-            padding: 8px 14px;
-            font-weight: 600;
-        }
-
-        @media (max-width: 640px) {
-            .hero {
-                flex-direction: column;
-                text-align: center;
-            }
-
-            .profile-photo {
-                width: 140px;
-                height: 140px;
-                font-size: 42px;
-            }
-
-            h1 {
-                font-size: 1.8rem;
-            }
+            background-color: #f0f0f0;
         }
     </style>
+
 </head>
 
 <body>
-    <div class="container">
-        <div class="card">
-            <div class="hero">
-                <div class="profile-photo">A</div>
-                <div>
-                    <h1>山田 太郎</h1>
-                    <div class="title">Web Developer / ITエンジニア</div>
-                    <p class="intro">
-                        はじめまして。私は○○を学び、Web開発やアプリ開発に興味を持ち、
-                        日々新しい技術を学んでいるエンジニアです。<br>
-                        「使いやすく、役立つものを作る」をモットーに活動しています。
-                    </p>
-                </div>
-            </div>
+    <h1>MY profile 自己紹介</h1>
+    <img src="L9.png" alt="Profile Picture" width="200">
+    <p>
+        名前：冯 洁瑶
+    </p>
+    <h2>好きなもの</h2>
+    <ul>
+        <li>餃子</li>
+        <li>ケーキ</li>
+    </ul>
 
-            <div class="section">
-                <h2>自己紹介</h2>
-                <p>
-                    私は○○大学/専門学校で○○を学び、学生時代からプログラミングに興味を持っていました。<br>
-                    その後、Webサイトの制作やアプリ開発に携わりながら、UI/UXや保守性を意識した設計に興味を持っています。<br>
-                    現在は、Web技術を活用して人の生活を便利にするようなサービスづくりに挑戦しています。
-                </p>
-            </div>
+    <h2>趣味</h2>
+    <ul>
+        <li>料理</li>
+        <li>音楽</li>
 
-            <div class="section">
-                <h2>スキル</h2>
-                <div class="grid">
-                    <div class="box">
-                        <h3>言語</h3>
-                        <ul>
-                            <li>HTML / CSS</li>
-                            <li>JavaScript</li>
-                            <li>Python</li>
-                        </ul>
-                    </div>
+    </ul>
 
-                    <div class="box">
-                        <h3>フレームワーク</h3>
-                        <ul>
-                            <li>React</li>
-                            <li>Node.js</li>
-                            <li>Flask</li>
-                        </ul>
-                    </div>
-
-                    <div class="box">
-                        <h3>興味分野</h3>
-                        <ul>
-                            <li>Web開発</li>
-                            <li>UIデザイン</li>
-                            <li>データ分析</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-
-            <div class="section">
-                <h2>特長</h2>
-                <ul>
-                    <li>新しい技術を積極的に調べて学ぶことが好きです。</li>
-                    <li>チームで協力しながら、ユーザー目線で物事を考えることを大切にしています。</li>
-                    <li>細部まで丁寧に見て、わかりやすいアウトプットを心がけています。</li>
-                </ul>
-            </div>
-
-            <div class="section">
-                <h2>趣味・好きなこと</h2>
-                <ul>
-                    <li>旅行・カフェ巡り</li>
-                    <li>読書</li>
-                    <li>ゲームやアニメ鑑賞</li>
-                    <li>技術ブログの読破</li>
-                </ul>
-            </div>
-
-            <div class="section">
-                <h2>連絡先</h2>
-                <div class="contact">
-                    <span class="chip">Email: example@email.com</span>
-                    <span class="chip">GitHub: github.com/username</span>
-                    <span class="chip">所在地: 東京</span>
-                </div>
-            </div>
-        </div>
-    </div>
+    <table>
+        <tr>
+            <th>項目</th>
+            <th>詳細</th>
+        </tr>
+        <tr>
+            <td>出身</td>
+            <td>広東省</td>
+        </tr>
+        <tr>
+            <td>地級市</td>
+            <td>広州市</td>
+        </tr>
+    </table>
 </body>
 
 </html>
